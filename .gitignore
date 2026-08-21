@@ -1,0 +1,36 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+checkpoint/
+pretrained/
+
+# Local datasets and split manifests
+data/
+dataset/
+datasets/
+utils/TrainDataset/*.txt
+
+# Predictions, evaluation products, and training logs
+results/
+EvaluateResults/
+background_logs/
+*.log
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
