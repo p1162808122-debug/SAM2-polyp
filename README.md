@@ -56,6 +56,12 @@ The current rank-32 checkpoint reports the following Dice and IoU scores on five
 
 These results support the paper's central claim: foundation-model semantics and convolutional local details are complementary for cross-dataset polyp segmentation.
 
+## Pretrained Model
+
+The trained SAM2-polyp checkpoint is available on Hugging Face:
+
+[Download Model Weights](https://huggingface.co/leojobs/SAM2-polyp)
+
 ## Code
 
 This repository contains the implementation accompanying the paper and is intended for research reproduction and further study.
