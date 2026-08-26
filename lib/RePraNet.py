@@ -23,7 +23,7 @@ class RePraNet(nn.Module):
     def __init__(
         self,
         channel=32,
-        lora_rank=8,
+        lora_rank=32,
         lora_alpha=None,
         lora_dropout=0.0,
     ):
