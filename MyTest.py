@@ -75,7 +75,7 @@ def discover_latest_run() -> Path:
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--testsize', type=int, default=352, help='testing size')
-parser.add_argument('--lora-rank', type=int, choices=(8, 16, 32, 64, 128), default=8,
+parser.add_argument('--lora-rank', type=int, choices=(8, 16, 32, 64, 128), default=32,
                     help='LoRA rank used to create the checkpoint model')
 parser.add_argument('--lora-alpha', type=float, default=None,
                     help='LoRA alpha; defaults to 2 * lora-rank')
