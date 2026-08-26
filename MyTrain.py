@@ -232,7 +232,7 @@ if __name__ == '__main__':
     parser.add_argument('--trainsize', type=int,
                         default=352, help='training dataset size')
     parser.add_argument('--lora-rank', type=int, choices=(8, 16, 32, 64, 128),
-                        default=8, help='LoRA rank for SAM2 Hiera attention')
+                        default=32, help='LoRA rank for SAM2 Hiera attention')
     parser.add_argument('--lora-alpha', type=float, default=None,
                         help='LoRA scaling alpha; defaults to 2 * lora-rank')
     parser.add_argument('--lora-dropout', type=float, default=0.0,
